@@ -3,59 +3,257 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Clyde Murray  Web Developer Portfolio</title>
+  <title>Clyde Murray  Portfolio</title>
+  <meta name="description" content="Clyde Murray web developer portfolio.  Live demos, GitHub repos, and project highlights." />
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- LinkedIn Badge Script -->
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </head>
 <body>
-  <main class="wrap">
-    <header class="hero">
-      <h1>Clyde Murray</h1>
-      <p class="tagline">
-        Entry level Web Developer focused on clean UI, practical JavaScript, and reliable workflows.
-      </p>
+  <a class="skip" href="#main">Skip to content</a>
 
-      <div class="links">
-        <a href="https://github.com/BANIMALS-NFT" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/cfmitsc/" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-    </header>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brandMark" aria-hidden="true"></span>
+      <span class="brandName">Clyde Murray</span>
+    </div>
 
-    <section class="projects">
-      <h2>Projects</h2>
+    <nav class="nav" aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btnNav">Contact</a>
+    </nav>
+  </header>
 
-      <div class="card">
-        <h3>Job Application Tracker</h3>
-        <p>
-          A JavaScript web app for tracking job applications with CRUD operations, filters,
-          and LocalStorage persistence.
-        </p>
-        <div class="actions">
-          <a href="https://j0tracker.netlify.app" target="_blank">Live Demo</a>
-          <a href="https://github.com/BANIMALS-NFT/Job-Tracker" target="_blank">GitHub</a>
+  <main id="main" class="wrap">
+    <section class="hero">
+      <canvas id="stars" aria-hidden="true"></canvas>
+
+      <div class="heroGrid">
+        <div class="heroCopy">
+          <p class="pill">Web Developer  Portfolio</p>
+          <h1>Clean UI.  Practical JavaScript.  Reliable workflows.</h1>
+          <p class="sub">
+            I build fast, readable web interfaces and ship working demos.  Here are three projects you can click and review in under a minute.
+          </p>
+
+          <div class="ctaRow">
+            <a class="btnPrimary" href="#projects">View Projects</a>
+            <a class="btnGhost" href="https://github.com/BANIMALS-NFT" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="btnGhost" href="https://www.linkedin.com/in/cfmitsc2/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+
+          <div class="trust">
+            <div class="trustItem">
+              <div class="trustKpi">3</div>
+              <div class="trustLabel">Live demos</div>
+            </div>
+            <div class="trustItem">
+              <div class="trustKpi">HTML CSS JS</div>
+              <div class="trustLabel">Frontend stack</div>
+            </div>
+            <div class="trustItem">
+              <div class="trustKpi">Netlify</div>
+              <div class="trustLabel">Deployed</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="heroVisual" aria-label="3D animated card stack">
+          <div class="scene">
+            <div class="stack">
+              <div class="card3d cardA">
+                <div class="cardTop">
+                  <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                </div>
+                <div class="cardBody">
+                  <div class="line big"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="chip"></div>
+                </div>
+              </div>
+
+              <div class="card3d cardB">
+                <div class="cardTop">
+                  <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                </div>
+                <div class="cardBody">
+                  <div class="line big"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="chip"></div>
+                </div>
+              </div>
+
+              <div class="card3d cardC">
+                <div class="cardTop">
+                  <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                </div>
+                <div class="cardBody">
+                  <div class="line big"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="chip"></div>
+                </div>
+              </div>
+
+              <div class="glow" aria-hidden="true"></div>
+            </div>
+          </div>
+
+          <div class="badgeWrap">
+            <h2 class="badgeTitle">LinkedIn Badge</h2>
+
+            <div class="badgeBox">
+              <div class="badge-base LI-profile-badge"
+                   data-locale="en_US"
+                   data-size="medium"
+                   data-theme="dark"
+                   data-type="VERTICAL"
+                   data-vanity="cfmitsc2"
+                   data-version="v1">
+                <a class="badge-base__link LI-simple-link"
+                   href="https://www.linkedin.com/in/cfmitsc2?trk=profile-badge"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  Clyde F M.
+                </a>
+              </div>
+
+              <p class="badgeNote">
+                If the badge does not load, use the LinkedIn button above.
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>BuzzApply SaaS Landing Page</h3>
-        <p>
-          A responsive SaaS style landing page demonstrating layout systems,
-          accessibility aware markup, and form validation.
-        </p>
-        <div class="actions">
-          <a href="https://saas-landing.netlify.app" target="_blank">Live Demo</a>
-          <a href="https://github.com/BANIMALS-NFT/saas-landing" target="_blank">GitHub</a>
-        </div>
+    <section id="projects" class="section">
+      <div class="sectionHead">
+        <h2>Projects</h2>
+        <p>Live demos plus source code.  Quick to review.</p>
       </div>
 
-      <div class="card">
-        <h3>API Data Viewer</h3>
+      <div class="cards">
+        <article class="card">
+          <h3>Job Application Tracker</h3>
+          <p>A JavaScript app for tracking job applications with CRUD operations, filters, and LocalStorage persistence.</p>
+          <div class="metaRow">
+            <span class="tag">JavaScript</span>
+            <span class="tag">LocalStorage</span>
+            <span class="tag">CRUD</span>
+          </div>
+          <div class="actions">
+            <a class="btnPrimary" href="https://j0tracker.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a class="btnGhost" href="https://github.com/BANIMALS-NFT/Job-Tracker" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>BuzzApply SaaS Landing Page</h3>
+          <p>A responsive SaaS style landing page demonstrating layout systems, accessibility aware markup, and form validation.</p>
+          <div class="metaRow">
+            <span class="tag">Responsive</span>
+            <span class="tag">UI</span>
+            <span class="tag">Validation</span>
+          </div>
+          <div class="actions">
+            <a class="btnPrimary" href="https://saas-landing.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a class="btnGhost" href="https://github.com/BANIMALS-NFT/saas-landing" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>API Data Viewer</h3>
+          <p>A frontend app that consumes a public API using Fetch, with loading states, filtering, and error handling.</p>
+          <div class="metaRow">
+            <span class="tag">Fetch</span>
+            <span class="tag">Errors</span>
+            <span class="tag">Filters</span>
+          </div>
+          <div class="actions">
+            <a class="btnPrimary" href="https://api-data-viewer.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a class="btnGhost" href="https://github.com/BANIMALS-NFT/api-data-viewer" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="sectionHead">
+        <h2>Skills</h2>
+        <p>Focused on shipping working frontend demos.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="panel">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML semantic structure</li>
+            <li>CSS layout systems and responsive design</li>
+            <li>JavaScript DOM and state handling</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3>Delivery</h3>
+          <ul>
+            <li>Git and GitHub workflow</li>
+            <li>Netlify deployments</li>
+            <li>README documentation and screenshots</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="sectionHead">
+        <h2>About</h2>
+        <p>Short, recruiter friendly context.</p>
+      </div>
+
+      <div class="panel">
         <p>
-          A frontend application that consumes a public API using Fetch,
-          with loading states, filtering, and error handling.
+          I am focused on landing a remote role where I can build and improve web experiences.
+          I like clear requirements, clean UI, and shipping features that work.
         </p>
-        <div class="actions">
-          <a href="https://api-data-viewer.netlify.app" target="_blank">Live Demo</a>
-          <a href="https://github.com/BANIMALS-NFT/api-data-viewer" target="_blank">GitHub</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="sectionHead">
+        <h2>Contact</h2>
+        <p>Use whichever is easiest.</p>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Email</h3>
+          <p>Fastest way to reach me.</p>
+          <div class="actions">
+            <a class="btnPrimary" href="mailto:cltytek3dx777@gmail.com">Email Me</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>GitHub</h3>
+          <p>Code, commits, and live projects.</p>
+          <div class="actions">
+            <a class="btnGhost" href="https://github.com/BANIMALS-NFT" target="_blank" rel="noopener noreferrer">Open GitHub</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>LinkedIn</h3>
+          <p>Profile and background.</p>
+          <div class="actions">
+            <a class="btnGhost" href="https://www.linkedin.com/in/cfmitsc2/" target="_blank" rel="noopener noreferrer">Open LinkedIn</a>
+          </div>
         </div>
       </div>
     </section>
@@ -64,5 +262,7 @@
       <p>Built by Clyde Murray</p>
     </footer>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>

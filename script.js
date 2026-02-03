@@ -1,4 +1,3 @@
-<script>
 (function(){
   const canvas = document.getElementById("stars");
   if(!canvas) return;
@@ -68,4 +67,4 @@
   seed();
   step();
 })();
-</script>
+
